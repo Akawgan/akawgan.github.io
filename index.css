@@ -1,0 +1,41 @@
+body
+{
+    background-color: #36393f;
+}
+#logo-img
+{
+    width: 20%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding: 160px 0 0 0;
+}
+div
+{
+    color: gray;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+#loading-div
+{
+    animation-name: loading;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes loading
+{
+    0%
+    {
+        transform: translateY(0px);
+    }   
+    50%
+    {
+        transform: translateY(15px);
+    } 
+    100%
+    {
+        transform: translateY(0px);
+    }
+}
