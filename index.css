@@ -15,7 +15,7 @@ div
     color: gray;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 28px;
     text-align: center;
 }
 #loading-div
@@ -32,10 +32,16 @@ div
     }   
     50%
     {
-        transform: translateY(15px);
+        transform: translateY(-15px);
     } 
     100%
     {
         transform: translateY(0px);
     }
+}
+.container
+{
+    border:gray;
+    border-width: 2px;
+    border-style: solid;
 }
