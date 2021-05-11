@@ -4,7 +4,7 @@ body
 }
 #logo-img
 {
-    width: 70vmin;
+    width: 20vmin;
     height: auto;
     display: block;
     margin: auto;
@@ -32,7 +32,7 @@ div
     }   
     50%
     {
-        transform: translateY(-30px);
+        transform: translateY(-20px);
     } 
     100%
     {
@@ -44,4 +44,14 @@ div
     border:gray;
     border-width: 2px;
     border-style: solid;
+    height: 25vh;
+}
+.main-container
+{
+    border:gray;
+    border-width: 2px;
+    border-style: solid;
+    height: 65vh;
+    margin-top: 1vh;
+    padding: 20px;
 }
