@@ -1,2 +1,2 @@
-# Code Snippets
+# Example Projects
 akawgan.github.io
