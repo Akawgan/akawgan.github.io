@@ -44,7 +44,7 @@ div
     border:gray;
     border-width: 2px;
     border-style: solid;
-    height: 25vh;
+    padding: 10px;
 }
 .main-container
 {
