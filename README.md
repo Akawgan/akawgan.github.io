@@ -1,2 +1,2 @@
-# akawgan.github.io
-My Portfolio
+# Code Snippets
+akawgan.github.io
