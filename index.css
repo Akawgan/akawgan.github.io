@@ -51,6 +51,7 @@ div
     padding: 10px;
     box-shadow: 1px 1px 8px #000000;
     background-color: #3f4247;
+    touch-action: manipulation;
 }
 .main-container
 {
@@ -64,12 +65,14 @@ div
     padding: 20px;
     box-shadow: 1px 1px 8px #000000;
     background-color: #3f4247;
+    touch-action: manipulation;
 }
 .grid-container
 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 3vw;
+    touch-action: manipulation;
 }
 .grid-item
 {
@@ -78,6 +81,7 @@ div
     border-width: 1px;
     border-style: solid;
     box-shadow: 2px 2px 2px #000000;
+    touch-action: manipulation;
     
 }
 .grid-container > [style="--aspect-ratio: 1/1;"] 
