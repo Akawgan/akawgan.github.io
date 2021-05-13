@@ -41,18 +41,22 @@ div
 }
 .container
 {
-    border:#8d8d8d #000000 #000000 #000000;
+    border:#8d8d8d;
     border-width: 1px;
     border-style: solid;
+    margin-left: 3vw;
+    margin-right: 3vw;
     padding: 10px;
     box-shadow: 1px 1px 8px #000000;
 }
 .main-container
 {
-    border:#8d8d8d #000000 #000000 #000000;
+    border:#8d8d8d;
     border-width: 1px;
     border-style: solid;
     height: 65vh;
+    margin-left: 3vw;
+    margin-right: 3vw;
     margin-top: 1vh;
     padding: 20px;
     box-shadow: 1px 1px 8px #000000;
