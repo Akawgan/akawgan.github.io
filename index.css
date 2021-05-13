@@ -46,18 +46,40 @@ div
     border-style: solid;
     margin-left: 1vh;
     margin-right: 1vh;
+    margin-top: 1vh;
     padding: 10px;
     box-shadow: 1px 1px 8px #000000;
+    background-color: #3f4247;
 }
 .main-container
 {
     border:#8d8d8d;
     border-width: 1px;
     border-style: solid;
-    height: 65vh;
+
     margin-left: 1vh;
     margin-right: 1vh;
     margin-top: 1vh;
     padding: 20px;
     box-shadow: 1px 1px 8px #000000;
+    background-color: #3f4247;
+}
+.grid-container
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3vw;
+}
+.grid-item
+{
+    background-color: #474b50;
+    border:#2c2c2c;
+    border-width: 1px;
+    border-style: solid;
+    box-shadow: 2px 2px 2px #000000;
+    
+}
+.grid-container > [style="--aspect-ratio: 1/1;"] 
+{
+    grid-column: span 1;
 }
