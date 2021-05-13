@@ -41,17 +41,19 @@ div
 }
 .container
 {
-    border:gray;
-    border-width: 2px;
+    border:#8d8d8d #000000 #000000 #000000;
+    border-width: 1px;
     border-style: solid;
     padding: 10px;
+    box-shadow: 1px 1px 8px #000000;
 }
 .main-container
 {
-    border:gray;
-    border-width: 2px;
+    border:#8d8d8d #000000 #000000 #000000;
+    border-width: 1px;
     border-style: solid;
     height: 65vh;
     margin-top: 1vh;
     padding: 20px;
+    box-shadow: 1px 1px 8px #000000;
 }
