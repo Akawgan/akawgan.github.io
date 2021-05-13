@@ -44,8 +44,8 @@ div
     border:#8d8d8d;
     border-width: 1px;
     border-style: solid;
-    margin-left: 3vw;
-    margin-right: 3vw;
+    margin-left: 1vh;
+    margin-right: 1vh;
     padding: 10px;
     box-shadow: 1px 1px 8px #000000;
 }
@@ -55,8 +55,8 @@ div
     border-width: 1px;
     border-style: solid;
     height: 65vh;
-    margin-left: 3vw;
-    margin-right: 3vw;
+    margin-left: 1vh;
+    margin-right: 1vh;
     margin-top: 1vh;
     padding: 20px;
     box-shadow: 1px 1px 8px #000000;
