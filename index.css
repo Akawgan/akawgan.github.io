@@ -1,6 +1,7 @@
 body
 {
     background-color: #36393f;
+    touch-action: manipulation;
 }
 #logo-img
 {
