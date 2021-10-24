@@ -7,9 +7,9 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Twilight Tavern R
+          Twilight Tavern
         </p>
-        <div style={{backgroundColor: 'white', width: 50, height: 50}}></div>
+        <div style={{backgroundColor: 'black', width: 50, height: 50}}></div>
 
       </header>
     </div>
