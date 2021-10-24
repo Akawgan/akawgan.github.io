@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Twilight Tavern
+          Twilight Tavern R
         </p>
         <div style={{backgroundColor: 'white', width: 50, height: 50}}></div>
 
