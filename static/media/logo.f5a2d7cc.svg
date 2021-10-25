@@ -10,13 +10,13 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="128.25206mm"
-   height="147.47859mm"
-   viewBox="0 0 128.25206 147.47859"
+   width="45.740814mm"
+   height="52.597916mm"
+   viewBox="0 0 45.740814 52.597916"
    version="1.1"
    id="svg8"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
-   sodipodi:docname="rysunek-1.svg">
+   sodipodi:docname="logo.svg">
   <defs
      id="defs2" />
   <sodipodi:namedview
@@ -26,21 +26,21 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35"
-     inkscape:cx="239.50896"
-     inkscape:cy="261.55685"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="299.43331"
+     inkscape:cy="-25.306826"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
-     fit-margin-top="0"
-     fit-margin-left="0"
-     fit-margin-right="0"
-     fit-margin-bottom="0"
      inkscape:window-width="1858"
      inkscape:window-height="1057"
      inkscape:window-x="54"
      inkscape:window-y="-8"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -57,11 +57,11 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-42.463253,-70.558321)">
+     transform="translate(-3.4275177,-3.0715316)">
     <g
        style="clip-rule:evenodd;fill-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5"
        id="g232"
-       transform="matrix(0.26458333,0,0,0.26458333,27.155702,60.903707)">
+       transform="matrix(0.09436306,0,0,0.09436306,-2.0318867,-0.37176524)">
       <g
          id="Layer1">
         <g
@@ -91,7 +91,7 @@
    transform="matrix(1.28534,0,0,0.69485,-34.9477,-60.9506)">
             <path
    id="path18"
-   style="fill:#443f6e"
+   style="fill:#7d75c2"
    d="M 260.499,162.689 437.631,352.444 260.499,542.198 83.368,352.444 Z"
    inkscape:connector-curvature="0" />
 
@@ -417,10 +417,10 @@
 
         <g
    id="g140"
-   transform="translate(12.2169,0.0124351)">
+   transform="translate(12.4673,-0.330444)">
             <path
    id="path138"
-   style="fill:#bf4e64"
+   style="fill:#c67383"
    d="m 287.762,52.341 0.427,-0.247 227.673,131.851 -227.673,131.851 -0.427,-0.247 z"
    inkscape:connector-curvature="0" />
 
