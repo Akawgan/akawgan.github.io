@@ -3,15 +3,19 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App-container">
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Header
-        </p>
-        <div style={{backgroundColor: 'black', width: 50, height: 50}}></div>
+        <div className="App-logocontainer"><img src={logo} className="App-logo" alt="logo" /></div>
+        <div className="App-header-infotab">
+          <p style={{fontWeight: 'bolder'}}>Name Name</p>
+          <p>---</p>
+          <p>Email:</p>
+          <p>Github:</p>
+          <p>Snapchat:</p>
+          <p>Header</p>
+          <p>Header</p>
 
+        </div>
       </header>
       <section className="App-section">
         <p>
@@ -19,7 +23,6 @@ function App() {
         </p>
       </section>
     </div>
-</div>
   );
 }
 
