@@ -1,27 +1,28 @@
 import logo from './logo.svg';
 import './App.css';
+import Paper from '@mui/material/Paper';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <div className="App-logocontainer"><img src={logo} className="App-logo" alt="logo" /></div>
-        <div className="App-header-infotab">
+        <Paper className="App-logocontainer" sx={{backgroundColor: 'White', color: 'Black'}} elevation={3}>
+          <img src={logo} className="App-logo" alt="logo" />
+        </Paper>
+        <Paper className="App-header-infotab" sx={{backgroundColor: 'White', color: 'Black'}} elevation={3}>
           <p style={{fontWeight: 'bolder'}}>Name Name</p>
-          <p>---</p>
-          <p>Email:</p>
-          <p>Github:</p>
-          <p>Snapchat:</p>
-          <p>Header</p>
-          <p>Header</p>
-
-        </div>
+          <p>Network Icons</p>
+        </Paper>
       </header>
-      <section className="App-section">
-        <p>
-          Main Section
-        </p>
-      </section>
+        <Paper className="App-section" sx={{backgroundColor: 'White', color: 'Black'}} elevation={3}>
+         <p> Main Section</p>
+        </Paper>
+        
+        
+      
+      <footer className="App-footer">
+        Footer
+      </footer>
     </div>
   );
 }

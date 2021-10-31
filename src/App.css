@@ -10,8 +10,9 @@
 
 body
 {
-  background-color: #282c34;
+  background-color: #eeeeee;
   overflow:hidden;
+  display: flex;
 }
 .App-logocontainer
 {
@@ -20,10 +21,12 @@ body
   align-items: center;
   justify-content: center;
   padding: 2vw;
+  margin: 2vw;
+  background-color: "White";
 }
 
 .App-logo {
-  height: 30vmin;
+  height: 20vmin;
   pointer-events: none;
 }
 
@@ -34,32 +37,44 @@ body
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: "White";
   display: flex;
   flex-direction: row;
   font-size: calc(10px + 2vmin);
   color: white;
-  border:#cfbb00 1px solid;
 }
 
 .App-header-infotab
 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   font-size: calc(6px + 1.2vmin);
-  border:#cfbb00 1px solid;
   text-align: left;
-  padding: 1vw;
-  min-width: 70vw;
+  padding-left: 2em;
+  width: 100%;
+  background-color: "White";
+  margin: 2vw 2vw 2vw 0;
 }
 
 .App-section {
-  border: #cfbb00 1px solid;
-  min-height: 61vh;
-  min-width: 98vw;
+  flex-grow: 1;
+  min-height: 60vh;
+  min-width: 96vw;
   font-size: calc(10px + 2vmin);
   color: white;
+  background-color: "White";
+  margin: 0 2vw 2vw 2vw;
+  padding: .2vh;
 }
 
 .App-link {
   color: #cfbb00;
+}
+
+.App-footer
+{
+  background-color: "White";
+  margin: 2vw;
 }
 
