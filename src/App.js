@@ -20,9 +20,6 @@ function App() {
         
         
       
-      <footer className="App-footer">
-        Footer
-      </footer>
     </div>
   );
 }
