@@ -8,14 +8,14 @@ body
     position: absolute;
     height: 100%;
     width: 100%;
-
+    
 }
 .container-main
 {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #0f0f0f;
+    background-color: #171720;
     height: 100%;
     width: 100%;
 }
