@@ -13,9 +13,28 @@ body
 .container-main
 {
     display: flex;
-    align-items: center;
     justify-content: center;
     background-color: #171720;
     height: 100%;
+    width: 100%;
+}
+.container-content
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    max-width: 50rem;
+    background-color: rgb(32, 32, 32);
+}
+#container-logo
+{
+    border: rgb(226, 43, 217) 1px solid;
+    height: 10rem;
+    width: 10rem;
+}
+#logo-svg
+{
     width: 100%;
 }
