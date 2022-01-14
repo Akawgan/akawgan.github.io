@@ -21,12 +21,21 @@ body
 .container-content
 {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    height: 100%;
     width: 100%;
     max-width: 50rem;
-    background-color: rgb(32, 32, 32);
+    background-color: #202030;
+    padding: 3rem;
+}
+#container-header
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: blueviolet;
+    border: white 1px solid;
+    height: 10em;
 }
 #container-logo
 {
@@ -37,4 +46,18 @@ body
 #logo-svg
 {
     width: 100%;
+}
+#container-info
+{
+    padding: 1rem;
+    font-weight: 900;
+    font-size: 1.5em;
+}
+#container-middle
+{
+    background-color: brown;
+    border: cornsilk 1px solid;
+    width: 100%;
+    margin-top: 2em;
+    height: 100%;
 }
