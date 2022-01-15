@@ -74,3 +74,11 @@ body
     padding: 1em;
     color: #eeeeff;
 }
+
+/* Mobile rules */
+@media only screen and (hover: none) and (pointer: coarse){
+#logo-svg
+    {
+        width: 75%;
+    }
+}
