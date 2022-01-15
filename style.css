@@ -12,6 +12,7 @@ body
 }
 .container-main
 {
+    box-sizing: content-box;
     display: flex;
     justify-content: center;
     background-color: #171720;
@@ -26,20 +27,19 @@ body
     width: 100%;
     max-width: 50rem;
     background-color: #202030;
-    padding: 3rem;
+    padding: 2rem;
 }
 #container-header
 {
     width: 100%;
     display: flex;
     flex-direction: row;
-    background-color: blueviolet;
     border: white 1px solid;
     height: 10em;
+    color: #eeeeff;
 }
 #container-logo
 {
-    border: rgb(226, 43, 217) 1px solid;
     height: 10rem;
     width: 10rem;
 }
@@ -50,14 +50,27 @@ body
 #container-info
 {
     padding: 1rem;
+    font-family: 'Roboto', sans-serif;
     font-weight: 900;
     font-size: 1.5em;
 }
 #container-middle
 {
-    background-color: brown;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border: cornsilk 1px solid;
     width: 100%;
-    margin-top: 2em;
+    margin-top: 1em;
     height: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+}
+#container-middle-content
+{
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    padding: 1em;
+    color: #eeeeff;
 }
