@@ -1,6 +1,7 @@
 *
 {
     margin: 0;
+    box-sizing: border-box;
 }
 body
 {
@@ -27,7 +28,7 @@ body
     width: 100%;
     max-width: 50rem;
     background-color: #202030;
-    padding: 2rem;
+    padding: 1.5rem;
 }
 #container-header
 {
@@ -42,6 +43,7 @@ body
 {
     height: 10rem;
     width: 10rem;
+    border: aqua 1px solid;
 }
 #logo-svg
 {
@@ -77,8 +79,15 @@ body
 
 /* Mobile rules */
 @media only screen and (hover: none) and (pointer: coarse){
-#logo-svg
-    {
-        width: 75%;
-    }
+#container-header
+{
+    align-items: center;
+    justify-content: center;
+}
+#container-logo
+{
+    height: 6rem;
+    width: 6rem;
+    border: aqua 1px solid;
+}
 }
