@@ -29,6 +29,7 @@ body
     max-width: 50rem;
     background-color: #202030;
     padding: 1.5rem;
+    padding-bottom: .5rem;
 }
 #container-header
 {
@@ -52,14 +53,14 @@ body
     padding: 1rem;
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
 #container-middle
 {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: cornsilk 1px solid;
+    border: rgba(255, 248, 220, 0.178) 1px solid;
     width: 100%;
     margin-top: 1em;
     height: 100%;
@@ -80,7 +81,7 @@ body
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: 1em;
+    margin-top: .5em;
     width: 100%;
     height: 20%;
     padding: 1em;
