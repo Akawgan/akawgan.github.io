@@ -110,4 +110,9 @@ body
     height: 6rem;
     width: 6rem;
 }
+#container-bottom
+{
+    padding-left: 0px;
+    padding-right: 0px;
+}
 }
