@@ -15,9 +15,16 @@ body
 {
     box-sizing: content-box;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     background-color: #171720;
     height: 100%;
+    width: 100%;
+}
+#container-menu
+{
+    height: 2em;
+    background-color: rgb(71, 77, 88);
     width: 100%;
 }
 .container-content
@@ -26,6 +33,7 @@ body
     flex-direction: column;
     align-items: center;
     width: 100%;
+    height: 100%;
     max-width: 50rem;
     background-color: #202030;
     padding: 1.5rem;
@@ -51,9 +59,29 @@ body
 #container-info
 {
     padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.large
+{
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
-    font-size: 1.3em;
+    font-size: 2.3em;
+    margin-bottom: .1em;
+}
+.description
+{
+    margin-top: .4em;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+}
+.divider
+{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(200, 200, 200, 0), rgba(200, 200, 200, 0.75), rgba(200, 200, 200, 0));
 }
 #container-middle
 {
@@ -100,6 +128,20 @@ body
 
 /* Mobile rules */
 @media only screen and (hover: none) and (pointer: coarse){
+.large
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 1.3em;
+    margin-bottom: .1em;
+}
+.description
+{
+    margin-top: .2em;
+    font-family: 'Roboto', sans-serif;
+    font-size: .9em;
+    text-align: center;
+}
 #container-header
 {
     align-items: center;
@@ -112,8 +154,13 @@ body
 }
 #container-bottom
 {
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: 1em;
+    padding-right: 1em;
     justify-content:space-between;
+}
+.container-bottom-tile
+{
+    width: 2.5em;
+    height: 2.5em;
 }
 }
