@@ -89,7 +89,7 @@ body
     display: flex;
     align-items: center;
     justify-content: center;
-    border: rgba(255, 248, 220, 0.178) 1px solid;
+    border-top: rgba(255, 248, 220, 0.178) 1px solid;
     width: 100%;
     margin-top: 1em;
     height: 100%;
@@ -116,6 +116,7 @@ body
     padding: 1em;
     color: #eeeeff;
     font-family: 'Roboto', sans-serif;
+    border-top: rgba(255, 248, 220, 0.178) 1px solid;
 }
 .social-icon
 {
