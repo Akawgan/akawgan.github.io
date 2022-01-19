@@ -11,6 +11,13 @@ body
     width: 100%;
     
 }
+.link
+{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 1em;
+}
 .container-main
 {
     box-sizing: content-box;
@@ -23,6 +30,10 @@ body
 }
 #container-menu
 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
     height: 2em;
     background-color: rgb(17, 18, 20);
     width: 100%;
