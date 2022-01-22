@@ -76,7 +76,7 @@ body
 {
     margin-top: .4em;
     font-family: 'Roboto', sans-serif;
-    font-size: 1.2em;
+    font-size: 1em;
     text-align: center;
 }
 .divider
@@ -142,7 +142,7 @@ body
 {
     margin-top: .2em;
     font-family: 'Roboto', sans-serif;
-    font-size: .9em;
+    font-size: .8em;
     text-align: center;
 }
 #container-header
